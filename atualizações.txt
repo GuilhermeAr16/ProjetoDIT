@@ -1,0 +1,111 @@
+              Atualizaçoes do site:   
+
+                  versão   2.2
+
+                    08/11/2020
+
+
+
+1. Correção dos bugs da barra de navegação.
+
+2. melhora na interface (cores das letras) na parte de contato
+
+3. correção de bugs de parte Branca, sem nenhum documento
+
+
+
+Isso é tudo!!
+
+ 
+
+                                       versão 2.3
+                                       09/11/2020
+
+
+
+1.botão Whatsapp
+                                      versão 2.4
+                                       10/11/2020
+
+1.botão do insta
+2.coloquei o menu e os botões do whats e insta em todas as páginas(contato,sobre os desenvol...)
+
+
+                             versão 2.5
+
+1. novo carroussel com o bootstrap
+2.alerta de covid com bootstrap
+3.carroussel na página do alerta de covid "como estamos trabalhando...->CLIQUE"
+
+                        versão 3.0
+1. menu bootstrap
+ 
+
+
+
+
+			Versão 3.1
+
+				11/11/2020
+
+
+1. implatação do sistema de card, para colocar nosso projetos.
+
+2. tentativa de implatação de formulario responsivo (deu errado!)
+
+3. alteração de algumas cores.
+
+4. retirado o balão de como trabalhamos.
+
+5. remoção da pagina antiga (retirar o lixo eletronico)
+
+                           versão 3.2
+                           12/11/2020
+
+1.coreeção de páginas que não estavam responsivas
+2. coreeção no formulário
+3.criação da página do atendimento do covid com o aviso e dicas de prevenções vê lá.
+4.CRIAÇÃO DA PÁGINA NOSSO TRABALHO VÊ LÁ.
+
+                   versão   3.3
+                          13/11/2020
+
+1.corrigindo página  NOOSO TRABALHO que  estava meio bugado no resposivo
+2. ínicio da página SOBRE DESENVOLVEDORES
+3.2. ínicio da página CONTATO (TODOS)
+
+
+
+
+		versão 3.4
+
+1. correção do rodapé da pagina
+
+2.correção de bug na pagina de como trabalhamos.
+
+3. aplicação do rodapé em todas as páginas.
+
+4. exclusão de "sobre os desenvolvedores" ( ñ ira agregar no projeto)
+
+
+
+		Versão 3.5    15/11/2020
+
+
+
+1. começo do novo desing do site
+
+2.introdução da parte de "perguntas frequentes"
+
+3. Wlkenio, da uma olhada melhor na questão de cores, eu não sou mt bom.
+
+4. na parte de "perguntas frequentes" pedi pra tu colocar uma pergunta e uma resposta, ta tudo especificado lá, como fazer.
+
+5. alerta do uso de cookies feito com javascript, se tu não gostar, ver um melhor ai.
+
+                                   versão 3.6    16/11/2020
+
+1.mudei as cores
+2.teste no carroussel
+
+

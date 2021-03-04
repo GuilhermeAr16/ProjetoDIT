@@ -1,0 +1,149 @@
+
+
+    .btnprin{
+        background-color: #42d815;
+    }
+
+    
+    
+
+
+
+     
+     
+       
+    
+    /**************************MENU*****************************/
+        .nav-item{
+    
+    padding-left: 80px;
+   
+    }
+   
+    .quemsomos{
+    
+        color: aqua;
+    }
+    .quem{
+        
+        border-radius: 7px;
+        background-color: rgba(16, 210, 235, 0.911);
+        width: 20%;
+        padding-top: 2px;
+    color: rgba(255, 255, 255, 0.842);
+    text-shadow: 1px 1px 1px rgb(2, 13, 22);
+     box-shadow: 2px 2px 2px black ;
+    }
+    
+    .quem:hover{
+    
+    background-color: rgba(12, 233, 233, 0.884);
+    }
+    
+    
+    
+    
+    .mais{
+    display: none;
+    
+    }
+    #nossotrb{
+        text-align: left;
+        width: 0%;
+        color: rgb(2, 10, 10);
+        text-align: end;
+        padding-right: 100pxpx;
+        padding-top: 20px;
+        
+    }
+    
+    #txtnss{
+        color: rgb(104, 104, 247);
+    }
+    
+    #prje{
+        padding-top: 100px;
+        padding-bottom: 300px;
+        padding-left: 10px;
+        text-align: center;
+    }
+     
+    .projeto1{
+    
+        padding-top: 100px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    
+    
+    .projeto2{
+        padding-top: 100px;
+        padding-right: 50px;
+        padding-left: 130px;
+    
+    
+    }
+    .projeto1:hover{
+         width: 650px;
+        padding-top: 100px;
+        padding-right: 50px;
+        padding-left: 50px;
+       cursor: pointer;
+    }
+    .projeto2:hover{
+        width: 700px;
+        padding-top: 100px;
+        padding-right: 50px;
+        padding-left: 100px;
+        cursor: pointer;
+    
+    }
+    
+    
+    
+    #total{
+        background-color: #e2d5d5b0 ;
+     
+    }
+    
+    .row{
+    color: #000000d5;
+    background-color: rgba(0, 0, 0, 0);
+    padding-right: 100px;
+    }
+    
+    #sdev{
+        padding-bottom: 90px;
+        padding-left: 10px;
+        
+    }
+    .rounded{
+        background-color: #1010110a;
+      
+    }
+    .rounded:hover{
+    
+        background-color:#1d1d1f3f;
+        
+    }
+    .menua{
+    
+    background-color: rgb(243, 244, 245);
+    text-align: center;
+    height: 26px;
+    }
+    .rodape{
+    background-color:  #d8d3d3;
+    
+    }
+    
+                     /*PAGINA DE ATENDIMENTO COVID-19------------------------*/
+    
+    .btn:hover{
+        background-color: red;
+    }
+    
+                  /*FIM DO CSS DA PÁGINA*/
+    
+    
+    

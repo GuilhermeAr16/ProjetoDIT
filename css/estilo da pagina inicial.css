@@ -1,0 +1,316 @@
+/*************PRELOADER*************/
+.elementor-element-edit-mode .loader{
+    display: none;
+}
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('vidit2.gif') 50% 50% no-repeat #6c1bc9;
+    background-size: 250px;
+}
+/************************************************************************/
+/***********BARRA DE ROLAGEM****************/
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: #640bb8de;
+   
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(238, 216, 15);
+    border-radius: 50px;
+}
+ /************************************************************************/
+
+
+ /*   ESTILO DO MENU ESTAR NA PASTA CSS1/  IE.CSS STYLES.CSS  */
+
+/*O ALERTA É DO BOOTSTRAP*/
+.alert{
+    text-align: center;
+}
+/************/
+
+/* O CARROUSEL É DO BOOTSTRAP */
+
+/*********MODELOS DE SITE*********/
+.tu{
+    width: 100%;
+    
+}
+.a{
+ width: 85%;   
+ margin-left: 7%;    
+}
+.b{
+ 
+width: 29%;
+margin-top: 60px;
+background-color: rgba(243, 239, 13, 0.76);
+border-radius: 4px;
+display: inline-block;
+transition: width 0.5s;
+box-shadow: 2px 2px 2px rgb(231, 197, 4);
+}
+.c{
+    width: 40%;
+    margin-top: 20px;
+    background-color: rgb(187, 97, 223);
+    border-radius: 3px;
+    position: relative;
+    display: inline-block; 
+    transition: width 1s;  
+    box-shadow: 3px 3px 3px rgba(14, 14, 13, 0.384);
+   
+}
+.txt{
+    text-align: center;
+    color: rgb(130, 22, 231);
+    font-family:impact;
+    font-size: 25px;
+}
+.c:hover{
+width:40.5% ;
+transition:1s;
+}
+.b:hover{
+    transition:1s;
+    width:29.5% ;
+    background-color: rgb(243, 239, 13);
+}
+.planos{
+    width: 96.5%;
+    margin-left: 3.5%;
+    color: #0a070cb7;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+@media  screen and (min-width:300px ) and (max-width:700px){
+  .a{
+  margin-left: 10%;
+  }
+  .b{
+      width: 90%;   
+  }
+  .c{
+      width: 95%;
+      margin-left: -2.5%;
+      margin-top: 45px;
+      }
+      .c:hover:active{
+          width:95% ;
+          
+          }
+          .d{
+              width: 100%; 
+          }
+  }
+    
+/*CARROUSEL DAS LOGOS*/
+
+
+/**PQ ESCOLHER A DIT?*/
+.pq{
+  width: 100%;
+  display: inline-block;
+}
+.pqa{
+  background-color: red;
+   width: 30%;
+display: inline-block;
+
+}
+.pqb{
+  background-color: rgb(222, 222, 236);
+  width: 69%;
+  display: inline-block;
+  margin-top: 20px;
+}
+.pqc{
+  text-align: center;
+   color: #2E578B;
+   font-size: 25PX;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.pqca{
+  color: #2E578B;
+  font-size: 25PX;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  margin-left: 4%;
+}
+.pqcb{
+  color: #161212;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+}
+
+
+/*BOTOES DO WHATS E DO INSTA--------------------------------------------------------*/
+   
+
+
+@-webkit-keyframes botaowats {
+    0% {
+      -webkit-transform: scale(1);
+      -webkit-filter: brightness(100%);
+    }
+    100% {
+      -webkit-transform: scale(1.1);
+      -webkit-filter: brightness(200%);
+    }
+  }
+  
+  @keyframes botaowats {
+    0% {
+      transform: scale(1);
+      filter: brightness(100%);
+    }
+    100% {
+      transform: scale(1.1);
+      filter: brightness(200%);
+    }
+  }
+
+
+.botaowats{
+
+position: fixed;
+width: 90px;
+height: 60px;
+bottom: 40px;
+right: 15px;
+animation:botaowats 0.7s infinite;
+margin: 0 auto;
+display: table;
+margin-top: 50px;
+animation-direction: alternate;
+-webkit-animation-name:botaowats;
+animation-name:botaowats;
+
+}      
+
+/***************** FIM  BOTOES DO WHATS E DO INSTA***************/
+
+/***************RODAPÉ******************/
+
+/*ocultar rodapé no mobile*/
+@media (max-width:1000px){
+    .tudo{
+        display: none;
+    }
+    }
+/****/  
+/*REDES SOCIAIS DO RODAPÉ*/
+    .cont{
+       width: 30px;
+       margin: 5px;
+       transition: width 1s;
+    }
+    .cont:hover{
+       width: 32px;     
+    }
+    
+/*************************************/
+/*CONTATOS*/
+.container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .conct{
+      width: 70%;
+      margin: 0 auto;
+    background-image:linear-gradient(to right, rgba(156, 41, 167, 0.993),rgba(238, 215, 9, 0.904) );
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.658); 
+    transition: width 1s;
+  }
+  .conct:hover{
+      width: 72%;
+  }
+  .contudo{
+      width: 100%;
+      box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.623);
+  }
+  .form-contact {
+    width: 100%;
+    font-family: "Arial", Times, serif;
+  }
+  
+  .form-contact-input {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #fdfdfd;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+  }
+  
+  .form-contact-textarea {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+    padding-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "Arial", Times, serif;
+  }
+  
+  .form-contact-button {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #fff;
+    height: 40px;
+    opacity: .8;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: #B22222;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #500707;
+    border-right: 1px solid #500707;
+    transition: 1s;
+  }
+  
+  .form-contact-button:hover {
+    opacity: 1;
+  }
+
+
+  /***********************************/
+    
+    /*COOKIES*/
+    @media  screen and (min-width:0px ) and (max-width:640px){
+        .gam{
+        display:none;
+        }
+        }
+        @media (min-width:1000px ){
+            .gam{
+            display:none;
+            }
+            }

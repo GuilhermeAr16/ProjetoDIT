@@ -1,0 +1,147 @@
+/*AJEITAR O MENU NO MOBILE POR CAUSA DA BARRA DE PESQUISA*/
+@media  screen and (min-width:638px ) and (max-width:1014px){
+    .pulo{
+      margin-top: 40px;
+    }
+    }
+    /**********/
+    /*CARROUSEL É BOOTSTARP*/
+
+    /*estilos da div "ultimas postagens"*/
+.divrecente{
+    border-color: rgba(0, 0, 0, 0.747);
+     
+       margin-top: 0px;
+      border-left-width: 1px; 
+       border-style: solid;
+        width:22%; 
+        height:  600px; 
+        margin-top: 70px; 
+        float: right; 
+        background-color: rgb(255, 255, 251); 
+         
+}
+.recente{
+    float: right; 
+    border-color: #7621e4fa;
+    border-width: 5px; 
+    border-left-style: solid; 
+      background-color: rgb(247, 245, 248);
+       width: 230px;  
+       margin-top: 30px; 
+       margin-right: 30px;
+        border-radius: 6px;
+        color: black;
+}
+.recente:hover{
+    background-color: #f4e6ff;
+}
+.titulorecente{
+    font-size:30px ;
+    text-shadow: 2px 2px 2px rgb(137, 48, 221);
+    margin-left: 20px;
+}
+.imgpesquisa2{
+    width: 150px;
+      height: 100px;
+      margin-left:30px;
+      margin-top: 10px;
+}
+@media (max-width:1200px){
+    .divrecente{
+        display: none;
+    }
+    }
+/*******************************/
+
+/*PAGINA SCRIPT ESTILO DAS PESQUISAS*/
+*{
+    font-family: "Helvetica";
+    padding: 0;
+    margin: 0;
+    font-size: 14;
+  }
+.vscript{
+    background-color: #0000;
+    border-radius: 1px;
+}
+  .lista{ margin: 10px; margin-left: 40px;  }
+
+  .lista img{ display: block; margin: 5px 0px }
+
+  .lista li{
+    margin: 0px;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+
+  .pesquisa{
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .h-100-p{height: 100%;}
+
+  pre{
+    font-family: monospace;
+    margin-left: 70px;
+    margin: 10px;
+   
+  }
+
+  pre > span{color: orangered;font-family: monospace;}
+
+  .imgpesquisa{
+      width: 250px;
+      height: 150px;
+      border-radius: 10px;
+      
+  }
+  @media (max-width:420px){
+    .lista{
+        margin: 10px;
+    }
+    }
+    @media (max-width:700px){
+        .imgpesquisa{
+            width: 150px;
+            height: 100px;
+        }
+       
+        }
+        @media  screen and (min-width:458px ) and (max-width:662px){
+            .lista{
+             margin: 10px; margin-left: 100px;
+            }
+            }
+            @media  screen and (min-width:300px ) and (max-width:514px){
+                .lista{
+                 margin: 10px; margin-left: 100px;
+                }
+                .imgpesquisa{
+                    width: 250px;
+                   height: 150px;
+                }
+                }
+                @media  screen and (min-width:710px ) and (max-width:954px){
+                    .lista{
+                     margin: 10px; margin-left: 220px;
+                    }
+                    }
+
+                    
+ .namepesquisa{
+     color:black;
+     text-align: center;
+   
+ }   
+ /*BOTOES DOS SRIPTS*/     
+ .btnscript{
+     
+     background-color: rgba(0, 0, 0, 0.411);
+     border-radius: 1px;
+     border-style: solid;
+ }         
+/*******************************/
