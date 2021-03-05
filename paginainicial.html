@@ -22,8 +22,12 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="#FFFACD" />
   <meta name="msapplication-navbutton-color" content="#FFFACD" />
   <!-------------------------------------------------------------------------FIM-------------------------------------------------------->
-
-                                               
+  <link rel="stylesheet" href="css1/styles.css">
+  <script src="js1/responsive-nav.js"></script>  
+  <script src="js1/fastclick.js"></script>
+  <script src="js1/scroll.js"></script>
+  <script src="js1/fixed-responsive-nav.js"></script>
+  
                                                 <!--BOOTSTRAP JAVISCRIPT LINK-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
@@ -32,7 +36,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="crossorigin="anonymous"></script>
      <!--------------------------------------------------------FIM DOS JS---------------------------------------------------------->
      <!--------------------------------------------------------PRELOADER----------------------------------------------------------->                             
-                                               <div class="loader" ></div>   
+     <div class="loader" ></div>   
                                                
      
 </head>
@@ -45,26 +49,25 @@
 
 <!--------------------------------------------------------------MENU---------------------------------------------------------------->
 
-<body style="background-color: #75757500; ">
+<body class="body" style="background-color: #75757500; ">
 
-
-  <body>
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="utf-8">
-        <title></title>
-        <meta name="author" content="Adtile">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" href="css1/styles.css">
-        
-        <script src="js1/responsive-nav.js"></script>
-      </head>
-      <body>
-    
-        <header>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title></title>
+      <meta name="author" content="Adtile">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <link rel="stylesheet" href="css1/styles.css">
+      
+      <script src="js1/responsive-nav.js"></script>
+    </head>
+    <body>
+  
+      <header>
           <a href="paginainicial.html" class="logo" data-scroll><img src="fotos/LOGO OFICIAL.png" width="42px"></a>
           <nav class="nav-collapse">
+            
             <ul>
               <li class="menu-item active"><a  class="menulabel" href="paginainicial.html" data-scroll> <label style="color: white;" class="menulabel">Início</label></a></li>
               <li class="menu-item"><a class="menulabel" href="nosso trabalho.html" data-scroll><label class="menulabel" >Nosso trabalho</label></a></li>
@@ -72,15 +75,10 @@
               <li class="menu-item"><a class="menulabel" href="blog.html" data-scroll><label class="menulabel" >Blog</label></a></li>
               <li class="menu-item"><a class="menulabel" href="script.html" ><label class="menulabel">Fzer Orçamento</label></a></li>
                
-              
-            
             </ul>
           </nav>
-        </header>
-    
-       
-    
-        <script src="js1/fastclick.js"></script>
+        
+          <script src="js1/fastclick.js"></script>
         <script src="js1/scroll.js"></script>
         <script src="js1/fixed-responsive-nav.js"></script>
       </body>
@@ -93,13 +91,11 @@
       }
       .menulabel:hover{
         color: rgb(252, 251, 248);
-        cursor: pointer;
-        
-        
+        cursor: pointer;  
       }
     </style>
-
-  </body>
+   </header>
+  
 <!--------------------------------------------------------FIM DO MENU---------------------------------------------------------------->
  
                               
@@ -116,12 +112,12 @@
  <!-------------------------------------------------------CAPA PRINCIPAL------------------------------------------------------------->
  
  <div id="carouselExampleControls" class="carousel slide " data-ride="carousel" style="margin-top:-20px;">
-  <div class="carousel-inner">
+  <div class="carousel-inner" >
     <div class="carousel-item active">
                          
       
     
-     <img class="d-block w-100" src="fotos/Vamos dar um UP no seu negócio.png"   alt="First slide">
+     <img class="d-block w-100"  src="fotos/Vamos dar um UP no seu negócio.png"   alt="First slide">
     </div>
     
    
@@ -187,20 +183,27 @@
         <div style="margin-top: 30px; color: #00000000;">.</div>
 </div>
 </div>
-
+</div>
  <!----------------------------------------------------FIM DOS MODELOS--------------------------------------------------------------->
  <div class="pq">
    <div class="pqa">
      <p class="pqc"><b><i> Por que escolher fazer meu site na DIT?</i></b></p>
-     <img width="70%" src="fotos/manpc.png" alt="">
+     <img width="100%" class="imgcrescer"  src="fotos/crescer.png" alt="">
    </div>
 
    <div class="pqb">
-     <p class="pqca">velocidade</p>
+     
+    <p class="pqca">Velocidade</p>
+     <p class="tema"><b>O seu site</b></p>
      <p class="pqcb">Alcance o próximo nível para seus projetos com servidores de ponta Intel® Xeon®. Garanta sistemas mais velozes com Memórias RAM de alto desempenho. Quer ir além? Ganhe 2x mais processamento com o Plano Turbo.</p>
+     
      <p class="pqca">Segurança</p>    
+     <p class="tema"><b>O seu site</b></p>
      <p class="pqcb">A segurança do seu site está em primeiro lugar! Monitoramos nossos servidores 24h para garantir máxima estabilidade. Ganhe mais proteção para seu site com Certificado SSL Grátis e ferramentas contra ataques e spam.</p>
    
+     <p class="pqca">Segurança</p>    
+     <p class="tema"><b>O seu site</b></p>
+     <p class="pqcb">A segurança do seu site está em primeiro lugar! Monitoramos nossos servidores 24h para garantir máxima estabilidade. Ganhe mais proteção para seu site com Certificado SSL Grátis e ferramentas contra ataques e spam.</p>
     </div>
  </div>
 <!-------------------------------------------------------CRIAÇÃO DE LOGOS------------------------------------------------------->
@@ -210,10 +213,10 @@
  <!---------------------------------------------------PERGUNTAS FREQUENTE------------------------------------------------------------->
  
 
-
+<br><br>
  <div class="perguntas" style="background-image: url('fotos/Design\ sem\ nome\ \(4\).png');" id="pf">
-  <h1 class="display-4" style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ; font-size: 30px; margin-top: 30px; color: rgb(233, 199, 5);"    > &nbsp &nbsp&nbsp&nbsp PERGUNTAS  &nbsp&nbsp<label style="color: rgb(255, 255, 255);  -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(87, 5, 219); "> FREQUENTES</label> </h1>
+  <h1 class="display-4" style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ; font-size: 30px; margin-top: 0px; color: rgb(233, 199, 5);"    > &nbsp &nbsp&nbsp&nbsp PERGUNTAS <label style="color: rgb(255, 255, 255);  -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(87, 5, 219);">| FREQUENTES</label> </h1>
  <div id="accordion" style="margin-right: 30px; margin-left: 30px; margin-top:20px ; ">
   
   <div class="card" style="border-radius: 15px; cursor: pointer; border-color:rgb(130, 6, 231) ; border-width: 5px;" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" >
@@ -288,14 +291,11 @@
       </div>
     </div>
   </div>
-  
   <br>
-
-
 </div>
 </div>
+</div>
 
-<br> <br>  <br>
 
 
 <!---------------------------------------------------FIM DAS PERGUNTAS FREQUENTE------------------------------------------------------------->
@@ -305,33 +305,37 @@
 
 
   <!-------------------------------------------------------CONTATO---------------------------------------------------------------->
- 
+
  
 
- <div id="contato" class="contudo" style="background-image: url('fotos/roxo.jpg');">
+ <div id="contatoa" class="contudo" style="background-image: url('fotos/roxo.jpg');">
+  
+  <br>
   <div class="conct" >
+    
   <div class="container">                                  
-<form action="https://api.staticforms.xyz/submit" method="post" id="contatos" ><br>
-<h1 class="h3 mb-3 fw-normal" style="text-align: center; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: white;">Entre em contato <label style="color: red;">Agora!</label></h1>
-                        <h5 style="text-align: center;">Nome:</h5>
-                        <input type="text" name="name" class="form-contact-input" style="width: 100%; border-radius: 5px; height: 40px;" placeholder="Nome">
-                         <h5 style="text-align: center;">Email</h5>
-                        <input type="email" name="email" class="form-contact-input" style="width: 100%; border-radius: 5px; height: 40px;" placeholder="Seu melhor Email"> 
-                        <h5 style="text-align: center;">Mensagem</h5>
+<form action="https://api.staticforms.xyz/submit" method="post">
+  <br>
+                        <input type="text" name="name" class="form-contact-input" style="width: 100%; border-radius: 5px; height: 40px;" placeholder="Nome">                         
+                        <input type="email" name="email" class="p"  placeholder="Seu melhor Email"> 
+                        <input type="email" name="email" class="p"  placeholder="Telefone"> 
                         <textarea class="form-contact-textarea" name="message"id="inputPassword" placeholder="Deixe uma mensagem" required></textarea>  
+                        <p style="margin-top: -22px; color: wheat;">Entraremos em contato em breve!</p>
                         <br>
-                        <button class="w-100 btn btn-lg btn-primary" value="Enviar" type="hidden" name="redirectTo"> Enviar </button>
+                        <button class="w-100 btn btn-lg btn-primary" value="Enviar" type="hidden" name="redirectTo"> Enviar </button>  
                         <input type="text" name="honeypot" style="display:none">
                         <input type="hidden" name="accessKey" value="34e47f07-ea7e-44de-b7d4-5bd3a9aed0f1">
                         <input type="hidden" name="subject" value="CLIENTE! BORA TRABALHAR" />
                         <input type="hidden" name="replyTo" value="@">
                         <input type="hidden" name="redirectTo" value="contato">
+                        <br>
                       </form>
-                      <div style="margin-top: 20px; color: #00000000;">.</div>
                     </div>
                   </div>
                 </div>
-            
+                
+              </div>
+              
 <!--------------------------------------------------------FIM DOS CONTATOS--------------------------------------------------------->
 
 
@@ -366,7 +370,7 @@
                                                               <li><a class="link-secondary"  href="#modelosdesite">Modelos de sites</a></li>
                                                               <li><a class="link-secondary" href="#pf">Perguntas Frequentes</a></li>
                                                               <li><a class="link-secondary" href="orçamento.html">Fazer orçamento</a></li>
-                                                              <li><a class="link-secondary" href="#contatos">Entrar em contato</a></li>
+                                                              <li><a class="link-secondary" href="#contatoa">Entrar em contato</a></li>
                                                             </ul>
                                                           </div>
                                                           <div class="col-6 col-md">
