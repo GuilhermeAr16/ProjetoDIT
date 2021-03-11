@@ -1,0 +1,36 @@
+.botaowats{
+
+    position: fixed;
+    width: 90px;
+    height: 60px;
+    bottom: 40px;
+    right: 15px;
+    animation:botaowats 0.7s infinite;
+    margin: 0 auto;
+    display: table;
+    margin-top: 50px;
+    animation-direction: alternate;
+    -webkit-animation-name:botaowats;
+    animation-name:botaowats;
+    
+    }      
+/*************PRELOADER*************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .elementor-element-edit-mode .loader{
+      display: none;
+  }
+  .loader {
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      background: url('vidit2.gif') 50% 50% no-repeat #6c1bc9;
+      background-size: 250px;
+  }
+  /************************************************************************/
