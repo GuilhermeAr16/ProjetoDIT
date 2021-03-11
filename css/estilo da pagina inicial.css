@@ -1,4 +1,9 @@
 /*************PRELOADER*************/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .elementor-element-edit-mode .loader{
     display: none;
 }
@@ -13,7 +18,7 @@
     background-size: 250px;
 }
 /************************************************************************/
-/***********BARRA DE ROLAGEM****************/
+/***********BARRA DE ROLAGEM E COR DO COPIADOR****************/
 ::-webkit-scrollbar{
     width: 8px;
     background-color: #640bb8de;
@@ -22,6 +27,10 @@
 ::-webkit-scrollbar-thumb{
     background-color: rgb(238, 216, 15);
     border-radius: 50px;
+}
+::selection{
+  background-color: rgba(119, 0, 255, 0.589);
+ color: white;
 }
  /************************************************************************/
 
@@ -113,45 +122,104 @@ transition:1s;
           }
   }
     
-/*CARROUSEL DAS LOGOS*/
+
 
 
 /**PQ ESCOLHER A DIT?*/
 .pq{
   width: 100%;
   display: inline-block;
-}
-.pqa{
-  background-color: red;
-   width: 30%;
-display: inline-block;
 
 }
+
+.pqa{
+  background-color: rgb(255, 255, 255);
+   width: 39%;
+display: inline-block;
+margin-top: 132px;
+display: inline-block;
+}
 .pqb{
-  background-color: rgb(222, 222, 236);
-  width: 69%;
+  background-color: rgb(255, 255, 255);
+  width: 50%;
   display: inline-block;
   margin-top: 20px;
+  float: right;
+  display: inline-block;
 }
 .pqc{
   text-align: center;
    color: #2E578B;
-   font-size: 25PX;
+   font-size: 28px;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   
+   margin-top: -20%;
 }
 .pqca{
   color: #2E578B;
   font-size: 25PX;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-  margin-left: 4%;
+  margin-top:10px ;
 }
 .pqcb{
-  color: #161212;
+  color: #161212e1;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-top: 20px;
+  margin-top: 15px;
 }
+.tema{
+  font-family:Arial;
+  
+}
+@media  screen and (min-width:300px ) and (max-width:800px){
+  .pqa{
+  width: 50%;
+  }
+  .pqb{
+      width: 100%;   
+      float: none;
+  }
+  .imgcrescer{
+  width: 60%;
+ margin-top: -47%; 
+ margin-left: 20%;
+  }
+  .pqc{
+    width: 90%;
+    
+    margin-left: 89%;
+  }
+  .pqca{
+    text-align: center;
+  }
+  .pqcb{
+    text-align: center;
+  }
+  .tema{
+    text-align: center;
+  }
+  }
+  
+  
+/*CARROUSEL DAS LOGOS*/
+#items-wrapper{
+width: 100vw;
 
+}
+.abc{
+  display: grid;
+  place-items: center;
+}
+#img{
+  width: 30%;
+  height: 100%;
+}
+.item{
+  flex: none;
+  width: 30%;
+}
+#items{
+  display: flex;
+  overflow: auto;
+}
 
 /*BOTOES DO WHATS E DO INSTA--------------------------------------------------------*/
    
@@ -219,24 +287,60 @@ animation-name:botaowats;
     }
     
 /*************************************/
+/*TEXTO DO LADO DOS CONTATOS*/
+
+.textocontato{
+  width: 30%;
+  display: inline-block;
+  
+}
+.textogran{
+  font-size:30px;
+  color: white;
+  text-align: center;
+  font-family: impact;
+  display: inline-block;
+}
+
 /*CONTATOS*/
 .container {
     width: 100%;
     margin: 0 auto;
+   
   }
+  
   .conct{
-      width: 70%;
-      margin: 0 auto;
+    width: 40%;
+    margin: 0 auto;
     background-image:linear-gradient(to right, rgba(156, 41, 167, 0.993),rgba(238, 215, 9, 0.904) );
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.658); 
     transition: width 1s;
+    margin-left: 55%; 
+    display: inline-block;
+    
   }
   .conct:hover{
-      width: 72%;
+    width: 41%;
   }
   .contudo{
       width: 100%;
       box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.623);
+     display: inline-block;
+  }
+  .p{
+  display: inline-block;
+  width: 49%;
+  color: #292929;
+  font-size: 17px;
+  background-color: #fdfdfd;
+  border: 1px solid #E9E9E9;
+ 
+ 
+  height: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
   }
   .form-contact {
     width: 100%;
@@ -245,8 +349,8 @@ animation-name:botaowats;
   
   .form-contact-input {
     width: 100%;
-    color: #292929;
-    font-size: 18px;
+    color: #292929bb;
+    font-size: 17px;
     background-color: #fdfdfd;
     border: 1px solid #E9E9E9;
     -moz-border-radius: 5px;
@@ -262,7 +366,7 @@ animation-name:botaowats;
   .form-contact-textarea {
     width: 100%;
     color: #292929;
-    font-size: 18px;
+    font-size: 17px;
     background-color: #E9E9E9;
     border: 1px solid #E9E9E9;
     -moz-border-radius: 5px;
@@ -277,6 +381,7 @@ animation-name:botaowats;
     padding-left: 0;
     padding-right: 0;
     font-family: "Arial", Times, serif;
+    height: 160px;
   }
   
   .form-contact-button {
@@ -297,9 +402,24 @@ animation-name:botaowats;
   }
   
   .form-contact-button:hover {
-    opacity: 1;
+    opacity: 2;
   }
 
+  @media  screen and (min-width:300px ) and (max-width:800px){
+    .textocontato{
+    width: 100%;
+    }
+    .conct{
+        width: 85%;   
+        margin-left: 7%;
+        height: 100%;
+    }
+    .conct:hover{
+      width: 86%;
+  }
+    }
+    
+      
 
   /***********************************/
     
